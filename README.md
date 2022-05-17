@@ -1,53 +1,49 @@
 # Recipe Recommendation Bot
 ## What's cooking?
 ![](Images/robo_chef_cartoon.jpeg)
-
-## Contributors
 _______________________________________________________________________________________________________________________
+## Contributors
 - Jihad Al-Hussain
 - Shanel Kuchera
 - JJ Torres
-
-## Project Description
 ______________________________________________________________________________________________________________________
+## Project Description
 - Create a tool that recommends recipes based on ingredients inputted to help you eat better food.
 - Scrape over 5000 recipes from All Recipes using python and beautiful soup.
-- Create a recipe recommendation system inputting ingredients on hand
-- Build a client-facing API and a user-friendly app 
-
-## Datasets to be used
+- Create a recipe recommendation system inputting ingredients on hand and outputting a list of recipes.
+- Build a client-facing API and a user-friendly app using the telegram bot API as a front end.
 _______________________________________________________________________________________________________________________
+## TechStach
+| Python | 
 | Keras |
 | Tensorflow |
-| Classification |
-| NLP |
-| Wordcloud |
-
+| Telegram Bot API |
+_______________________________________________________________________________________________________________________
+## Datasets to be used
 - [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 - [Food Images (Food-101)](https://www.kaggle.com/datasets/kmader/food41)
-
-
-## Rough Breakdown of Tasks
 _______________________________________________________________________________________________________________________
-1. Create a skeleton plan for Project 2
-2. Begin data importing process. 
-3. Explore and clean data
-4. Start the coding process 
-5. Run multiple models
-6. Include a wine pairing suggestion automatically based on recipe generated. White or red
-6. Deploy a chatbot
-7. Final question of end user... "Do you think this recipe was a good recommendation?"
+## How to Use the Bot
+Before you start:
+- install the list of dependicies using pip ```pip install -r requirements.txt```
+- Telegram API key [How to get it](https://core.telegram.org/bots/api#authorizing-your-bot)
 
+Simply run the bot using the following command:
+- ```python3 telegram-bot-industry-model.py``` 
+- or ```python3 telegram-bot-our-model.py ```
+
+experiment and play and have fun ! 
 _______________________________________________________________________________________________________________________
-
-![](Images/wine-and-food-pairing-chart.png)
 
 ## Results from the Project
+- Successfully trained and tested the model using keras and tensorflow
+    - The model can be improved by using a larger number of images and a more robust model architecture. 
+    - Better techniques can be used to improve the model such as transfer learning from an existing vision model.
+- Successfully deployed the chatbot using the telegram API 
+- Investigated the use of Amazon lex as a backend to provide a better user experience by using the AWS-API as a backend
 
-- successfully trained and tested the model using keras and tensorflow
-    - The model can be improved by using a larger number of images
-    - more techniques can be used to improve the model such as 
-- successfully deployed the chatbot using the telegram API 
-- investigated the use of Amazon lex as a backend to provide a better user experience by using the AWS-API as a backend
+Here is a Demo of the chatbot in action: 
+![](ppt_images/Chef_bot.gif)
+
 
 

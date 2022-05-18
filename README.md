@@ -8,12 +8,13 @@ ________________________________________________________________________________
 - JJ Torres
 ______________________________________________________________________________________________________________________
 ## Project Description
-- Create a tool that recommends recipes based on ingredients inputted to help you eat better food.
-- Scrape over 5000 recipes from All Recipes using python and beautiful soup.
-- Create a recipe recommendation system inputting ingredients on hand and outputting a list of recipes.
-- Build a client-facing API and a user-friendly app using the telegram bot API as a front end.
+- Created a recipe recommendation system by training a computer vision model in keras-tensorflow using a custom convolutional neural network model (CNN).
+- Created a python tool that recommends recipes based on ingredients input as images or text.
+- Scraping over 5000 recipes from All Recipes using python and beautiful soup.
+- Deployed a user-friendly app using the telegram bot API as a front end.
+
 _______________________________________________________________________________________________________________________
-## TechStach
+## TechStack
 | Python | 
 | Keras |
 | Tensorflow |

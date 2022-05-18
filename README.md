@@ -19,6 +19,7 @@ ________________________________________________________________________________
 | Keras |
 | Tensorflow |
 | Telegram Bot API |
+| [recipe-scrapers By hhursev](https://github.com/hhursev/recipe-scrapers) |
 _______________________________________________________________________________________________________________________
 ## Datasets to be used
 - [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)

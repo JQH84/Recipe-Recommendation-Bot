@@ -29,7 +29,7 @@ model = tf.keras.applications.Xception(
 
 # creating the updater instance to use our bot api key
 load_dotenv()
-telegram_api = os.getenv("telegram_api")
+telegram_api = os.environ.get('TELEGRAM')
 updater = Updater(telegram_api)
 dispatcher = updater.dispatcher
 
@@ -159,7 +159,7 @@ def reset(updater, context):
 # dispatchers for the various commands and listeners from within the telegram bot
 dispatcher.add_handler(CommandHandler('Start', start))
 dispatcher.add_handler(CommandHandler('Help', helper))
-dispatcher.add_handler(CommandHandler('Reset') , reset)
+dispatcher.add_handler(CommandHandler('Reset' , reset))
 #dispatcher.add_handler(CommandHandler('Converse', converse))
 
 dispatcher.add_handler(MessageHandler(Filters.photo, process_photo))

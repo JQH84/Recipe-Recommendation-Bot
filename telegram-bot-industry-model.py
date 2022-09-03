@@ -29,7 +29,7 @@ model = tf.keras.applications.Xception(
 
 # creating the updater instance to use our bot api key
 load_dotenv()
-telegram_api = os.getenv("telegram-api")
+telegram_api = os.getenv("telegram_api")
 updater = Updater(telegram_api)
 dispatcher = updater.dispatcher
 

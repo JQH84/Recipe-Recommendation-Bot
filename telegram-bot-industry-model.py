@@ -81,7 +81,7 @@ def process_photo(updater, context):
     makelist((label[0][0][1]))
 
     updater.message.reply_text(
-        f'Your sent an image of what seems to have a {label[0][0][1]} .  Since we are in beta please go ahead and write a list of ingredients for me')
+        f'Your sent an image of what seems to have a {label[0][0][1]} . If that was not correct , you can try again and since we are in beta you could also go ahead and write a list of ingredients for me and I will work with that')
     print(image_ingredients)
 
 # instance that takes the user text input and then scrapes the all recipes website to return a randoom recipe

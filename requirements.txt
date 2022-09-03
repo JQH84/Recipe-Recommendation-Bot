@@ -9,3 +9,4 @@ spoonacular==3.0
 telegram==0.0.1
 tensorflow==2.9.0
 python-telegram-bot
+Pillow

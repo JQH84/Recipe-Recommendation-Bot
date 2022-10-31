@@ -1,10 +1,10 @@
 # importing the required libraries for telegram
 
-from typing import Tuple
+#from typing import Tuple
 from telegram.ext import Updater, Filters, CommandHandler, MessageHandler
 import tensorflow as tf
 from tensorflow.keras.preprocessing import *
-import pickle
+#import pickle
 import pandas as pd
 import numpy as np
 import requests as rq
@@ -12,7 +12,7 @@ from tensorflow import keras
 from tensorflow.keras.applications.xception import decode_predictions
 import os
 from dotenv import load_dotenv
-import openai
+#import openai
 import spoonacular as sp
 
 
